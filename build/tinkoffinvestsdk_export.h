@@ -1,0 +1,42 @@
+
+#ifndef TINKOFFINVESTSDK_EXPORT_H
+#define TINKOFFINVESTSDK_EXPORT_H
+
+#ifdef TINKOFFINVESTSDK_STATIC_DEFINE
+#  define TINKOFFINVESTSDK_EXPORT
+#  define TINKOFFINVESTSDK_NO_EXPORT
+#else
+#  ifndef TINKOFFINVESTSDK_EXPORT
+#    ifdef TinkoffInvestSDK_EXPORTS
+        /* We are building this library */
+#      define TINKOFFINVESTSDK_EXPORT __attribute__((visibility("default")))
+#    else
+        /* We are using this library */
+#      define TINKOFFINVESTSDK_EXPORT __attribute__((visibility("default")))
+#    endif
+#  endif
+
+#  ifndef TINKOFFINVESTSDK_NO_EXPORT
+#    define TINKOFFINVESTSDK_NO_EXPORT __attribute__((visibility("hidden")))
+#  endif
+#endif
+
+#ifndef TINKOFFINVESTSDK_DEPRECATED
+#  define TINKOFFINVESTSDK_DEPRECATED __attribute__ ((__deprecated__))
+#endif
+
+#ifndef TINKOFFINVESTSDK_DEPRECATED_EXPORT
+#  define TINKOFFINVESTSDK_DEPRECATED_EXPORT TINKOFFINVESTSDK_EXPORT TINKOFFINVESTSDK_DEPRECATED
+#endif
+
+#ifndef TINKOFFINVESTSDK_DEPRECATED_NO_EXPORT
+#  define TINKOFFINVESTSDK_DEPRECATED_NO_EXPORT TINKOFFINVESTSDK_NO_EXPORT TINKOFFINVESTSDK_DEPRECATED
+#endif
+
+#if 0 /* DEFINE_NO_DEPRECATED */
+#  ifndef TINKOFFINVESTSDK_NO_DEPRECATED
+#    define TINKOFFINVESTSDK_NO_DEPRECATED
+#  endif
+#endif
+
+#endif /* TINKOFFINVESTSDK_EXPORT_H */

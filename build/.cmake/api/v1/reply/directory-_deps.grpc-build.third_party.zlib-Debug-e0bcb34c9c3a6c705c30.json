@@ -1,0 +1,121 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/zlib/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 214,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 220,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 223,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 226,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/lib",
+			"paths" : 
+			[
+				"_deps/grpc-build/third_party/zlib/libz.1.2.11.dylib",
+				"_deps/grpc-build/third_party/zlib/libz.1.dylib"
+			],
+			"targetId" : "zlib::@5c59ea97b5f5440f1cfc",
+			"targetIndex" : 133,
+			"targetInstallNamelink" : "skip",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/lib",
+			"paths" : 
+			[
+				"_deps/grpc-build/third_party/zlib/libz.dylib"
+			],
+			"targetId" : "zlib::@5c59ea97b5f5440f1cfc",
+			"targetIndex" : 133,
+			"targetInstallNamelink" : "only",
+			"type" : "target"
+		},
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/lib",
+			"paths" : 
+			[
+				"_deps/grpc-build/third_party/zlib/libz.a"
+			],
+			"targetId" : "zlibstatic::@5c59ea97b5f5440f1cfc",
+			"targetIndex" : 134,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/include",
+			"paths" : 
+			[
+				"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-build/third_party/zlib/zconf.h",
+				"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/zlib/zlib.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/share/man/man3",
+			"paths" : 
+			[
+				"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/zlib/zlib.3"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "/usr/local/share/pkgconfig",
+			"paths" : 
+			[
+				"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-build/third_party/zlib/zlib.pc"
+			],
+			"type" : "file"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/grpc-build/third_party/zlib",
+		"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/zlib"
+	}
+}

@@ -1,0 +1,175 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"INSTALL"
+		],
+		"files" : 
+		[
+			"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/cares/cares/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 620,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 641,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 653,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 654,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 664,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 678,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 687,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 696,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/grpc-build/third_party/cares/cares/lib/libcares.a"
+			],
+			"targetId" : "c-ares::@76aaa97747bafcc602fb",
+			"targetIndex" : 72,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "include",
+			"paths" : 
+			[
+				"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/cares/cares/ares.h",
+				"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/cares/cares/ares_version.h",
+				"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/cares/cares/ares_dns.h",
+				"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-build/third_party/cares/cares/ares_build.h",
+				"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/cares/cares/ares_rules.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/c-ares",
+			"exportName" : "c-ares-targets",
+			"exportTargets" : 
+			[
+				{
+					"id" : "c-ares::@76aaa97747bafcc602fb",
+					"index" : 72
+				}
+			],
+			"paths" : 
+			[
+				"_deps/grpc-build/third_party/cares/cares/CMakeFiles/Export/e1b1c4e2e08fd55c0020938b7b6a2645/c-ares-targets.cmake"
+			],
+			"type" : "export"
+		},
+		{
+			"backtrace" : 4,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/c-ares",
+			"paths" : 
+			[
+				"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-build/third_party/cares/cares/c-ares-config.cmake"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 5,
+			"component" : "Unspecified",
+			"destination" : "lib/pkgconfig",
+			"paths" : 
+			[
+				"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-build/third_party/cares/cares/libcares.pc"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 6,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/grpc-build/third_party/cares/cares/bin/ahost"
+			],
+			"targetId" : "ahost::@76aaa97747bafcc602fb",
+			"targetIndex" : 70,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 7,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/grpc-build/third_party/cares/cares/bin/adig"
+			],
+			"targetId" : "adig::@76aaa97747bafcc602fb",
+			"targetIndex" : 69,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 8,
+			"component" : "Unspecified",
+			"destination" : "bin",
+			"paths" : 
+			[
+				"_deps/grpc-build/third_party/cares/cares/bin/acountry"
+			],
+			"targetId" : "acountry::@76aaa97747bafcc602fb",
+			"targetIndex" : 67,
+			"type" : "target"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/grpc-build/third_party/cares/cares",
+		"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/cares/cares"
+	}
+}

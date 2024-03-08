@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names "CMakeFiles/protoc.dir/__/__/__/grpc-src/third_party/protobuf/src/google/protobuf/compiler/main.cc.o" -o protoc-3.18.1.0  libprotocd.a libprotobufd.a 

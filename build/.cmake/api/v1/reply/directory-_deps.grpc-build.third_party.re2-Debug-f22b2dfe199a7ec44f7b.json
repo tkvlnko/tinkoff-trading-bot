@@ -1,0 +1,88 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"install"
+		],
+		"files" : 
+		[
+			"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/re2/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 155,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 157,
+				"parent" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 162,
+				"parent" : 0
+			}
+		]
+	},
+	"installers" : 
+	[
+		{
+			"backtrace" : 1,
+			"component" : "Unspecified",
+			"destination" : "include/re2",
+			"paths" : 
+			[
+				"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/re2/re2/filtered_re2.h",
+				"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/re2/re2/re2.h",
+				"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/re2/re2/set.h",
+				"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/re2/re2/stringpiece.h"
+			],
+			"type" : "file"
+		},
+		{
+			"backtrace" : 2,
+			"component" : "Unspecified",
+			"destination" : "lib",
+			"paths" : 
+			[
+				"_deps/grpc-build/third_party/re2/libre2.a"
+			],
+			"targetId" : "re2::@6a80eefe8d8a424d84c4",
+			"targetIndex" : 113,
+			"type" : "target"
+		},
+		{
+			"backtrace" : 3,
+			"component" : "Unspecified",
+			"destination" : "lib/cmake/re2",
+			"exportName" : "re2Config",
+			"exportTargets" : 
+			[
+				{
+					"id" : "re2::@6a80eefe8d8a424d84c4",
+					"index" : 113
+				}
+			],
+			"paths" : 
+			[
+				"_deps/grpc-build/third_party/re2/CMakeFiles/Export/2163157bb4e691faa63e00f4fb3aeb7d/re2Config.cmake"
+			],
+			"type" : "export"
+		}
+	],
+	"paths" : 
+	{
+		"build" : "_deps/grpc-build/third_party/re2",
+		"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/re2"
+	}
+}

@@ -1,0 +1,748 @@
+{
+	"archive" : {},
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/grpc-build/libgpr.a"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_library",
+			"target_link_libraries",
+			"include_directories",
+			"include",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/CMakeLists.txt",
+			"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/cmake/re2.cmake",
+			"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/cmake/zlib.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 1343,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 1422,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 277,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 281,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 25,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 1409,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=gnu99 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/re2"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/zlib"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/address_sorting/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-build/third_party/re2"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/boringssl-with-bazel/src/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/ext/upb-generated"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/ext/upbdefs-generated"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/upb"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/xxhash"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-build/third_party/zlib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp"
+				}
+			],
+			"language" : "C",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "99"
+			},
+			"sourceIndexes" : 
+			[
+				0,
+				1
+			]
+		},
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIC"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/re2"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/zlib"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/address_sorting/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-build/third_party/re2"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/boringssl-with-bazel/src/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/ext/upb-generated"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/ext/upbdefs-generated"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/upb"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/xxhash"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-build/third_party/zlib"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "absl_status::@c1257fb62a16293e8955"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_strings::@40dcdb164f5eca7d74f6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_strings_internal::@40dcdb164f5eca7d74f6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_str_format_internal::@40dcdb164f5eca7d74f6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_cord_internal::@40dcdb164f5eca7d74f6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_cordz_functions::@40dcdb164f5eca7d74f6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_cordz_handle::@40dcdb164f5eca7d74f6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_cordz_info::@40dcdb164f5eca7d74f6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_cord::@40dcdb164f5eca7d74f6"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_graphcycles_internal::@4e076f26d3adeded7f3a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_synchronization::@4e076f26d3adeded7f3a"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_time::@eaebfe3f746532af4ca1"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_civil_time::@eaebfe3f746532af4ca1"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "upb::@37e56dcf5808cfe97076"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_log_severity::@c83f3e5a481f2bcefac8"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_raw_logging_internal::@c83f3e5a481f2bcefac8"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_spinlock_wait::@c83f3e5a481f2bcefac8"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_malloc_internal::@c83f3e5a481f2bcefac8"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_base::@c83f3e5a481f2bcefac8"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_throw_delegate::@c83f3e5a481f2bcefac8"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_bad_optional_access::@87c8c94dbbf1d57501f7"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_stacktrace::@661e937ce4f9d3fa350b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_symbolize::@661e937ce4f9d3fa350b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_debugging_internal::@661e937ce4f9d3fa350b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_demangle_internal::@661e937ce4f9d3fa350b"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_int128::@49df67a123fe8bd3185d"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_exponential_biased::@bb547144bd31e86f7571"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "absl_time_zone::@eaebfe3f746532af4ca1"
+		}
+	],
+	"id" : "gpr::@37e56dcf5808cfe97076",
+	"name" : "gpr",
+	"nameOnDisk" : "libgpr.a",
+	"paths" : 
+	{
+		"build" : "_deps/grpc-build",
+		"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0,
+				1,
+				2,
+				3,
+				4,
+				5,
+				6,
+				7,
+				8,
+				9,
+				10,
+				11,
+				12,
+				13,
+				14,
+				15,
+				16,
+				17,
+				18,
+				19,
+				20,
+				21,
+				22,
+				23,
+				24,
+				25,
+				26,
+				27,
+				28,
+				29,
+				30,
+				31,
+				32,
+				33,
+				34,
+				35,
+				36,
+				37,
+				38,
+				39,
+				40,
+				41,
+				42,
+				43,
+				44,
+				45,
+				46
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/ext/upb-generated/google/protobuf/any.upb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/ext/upb-generated/google/rpc/status.upb.c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/alloc.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/atm.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/cpu_iphone.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/cpu_linux.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/cpu_posix.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/cpu_windows.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/env_linux.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/env_posix.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/env_windows.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/log.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/log_android.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/log_linux.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/log_posix.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/log_windows.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/murmur_hash.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/string.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/string_posix.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/string_util_windows.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/string_windows.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/sync.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/sync_abseil.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/sync_posix.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/sync_windows.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/time.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/time_posix.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/time_precise.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/time_windows.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/tmpfile_msys.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/tmpfile_posix.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/tmpfile_windows.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gpr/wrap_memcpy.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gprpp/arena.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gprpp/examine_stack.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gprpp/fork.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gprpp/global_config_env.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gprpp/host_port.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gprpp/mpscq.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gprpp/stat_posix.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gprpp/stat_windows.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gprpp/status_helper.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gprpp/thd_posix.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gprpp/thd_windows.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/gprpp/time_util.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/profiling/basic_timers.cc",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 1,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/lib/profiling/stap_timers.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "STATIC_LIBRARY"
+}

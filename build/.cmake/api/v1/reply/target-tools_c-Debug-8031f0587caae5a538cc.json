@@ -1,0 +1,72 @@
+{
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_custom_target"
+		],
+		"files" : 
+		[
+			"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/CMakeLists.txt"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 387,
+				"parent" : 0
+			}
+		]
+	},
+	"dependencies" : 
+	[
+		{
+			"id" : "check_epollexclusive::@37e56dcf5808cfe97076"
+		}
+	],
+	"id" : "tools_c::@37e56dcf5808cfe97076",
+	"name" : "tools_c",
+	"paths" : 
+	{
+		"build" : "_deps/grpc-build",
+		"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		},
+		{
+			"name" : "CMake Rules",
+			"sourceIndexes" : 
+			[
+				1
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"isGenerated" : true,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-build/CMakeFiles/tools_c",
+			"sourceGroupIndex" : 0
+		},
+		{
+			"backtrace" : 0,
+			"isGenerated" : true,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-build/CMakeFiles/tools_c.rule",
+			"sourceGroupIndex" : 1
+		}
+	],
+	"type" : "UTILITY"
+}

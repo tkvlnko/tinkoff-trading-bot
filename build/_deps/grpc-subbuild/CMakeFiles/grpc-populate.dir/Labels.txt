@@ -1,0 +1,14 @@
+# Target labels
+ grpc-populate
+# Source files and their labels
+/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-subbuild/CMakeFiles/grpc-populate
+/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-subbuild/CMakeFiles/grpc-populate.rule
+/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-subbuild/CMakeFiles/grpc-populate-complete.rule
+/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-subbuild/grpc-populate-prefix/src/grpc-populate-stamp/grpc-populate-build.rule
+/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-subbuild/grpc-populate-prefix/src/grpc-populate-stamp/grpc-populate-configure.rule
+/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-subbuild/grpc-populate-prefix/src/grpc-populate-stamp/grpc-populate-download.rule
+/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-subbuild/grpc-populate-prefix/src/grpc-populate-stamp/grpc-populate-install.rule
+/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-subbuild/grpc-populate-prefix/src/grpc-populate-stamp/grpc-populate-mkdir.rule
+/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-subbuild/grpc-populate-prefix/src/grpc-populate-stamp/grpc-populate-patch.rule
+/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-subbuild/grpc-populate-prefix/src/grpc-populate-stamp/grpc-populate-test.rule
+/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-subbuild/grpc-populate-prefix/src/grpc-populate-stamp/grpc-populate-update.rule

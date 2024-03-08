@@ -1,0 +1,1 @@
+/usr/bin/clang++ -g -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -Wl,-search_paths_first -Wl,-headerpad_max_install_names CMakeFiles/exhaustive3_test.dir/re2/testing/exhaustive3_test.cc.o CMakeFiles/exhaustive3_test.dir/util/test.cc.o -o exhaustive3_test  libtesting.a libre2.a 

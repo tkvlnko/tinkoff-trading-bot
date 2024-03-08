@@ -1,0 +1,1883 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1,
+						28
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						127
+					]
+				},
+				{
+					"build" : "_deps/grpc-build",
+					"childIndexes" : 
+					[
+						2,
+						23,
+						24,
+						25,
+						26,
+						27
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.grpc-build-Debug-f885234db476fb799d73.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src",
+					"targetIndexes" : 
+					[
+						68,
+						74,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						109,
+						128,
+						129,
+						130,
+						132
+					]
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/abseil-cpp",
+					"childIndexes" : 
+					[
+						3
+					],
+					"jsonFile" : "directory-_deps.grpc-build.third_party.abseil-cpp-Debug-cc34bc08227d97a1a39c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 2,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp"
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/abseil-cpp/absl",
+					"childIndexes" : 
+					[
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22
+					],
+					"jsonFile" : "directory-_deps.grpc-build.third_party.abseil-cpp.absl-Debug-02d245b6a88bb389558b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 2,
+					"projectIndex" : 2,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp/absl"
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/abseil-cpp/absl/base",
+					"jsonFile" : "directory-_deps.grpc-build.third_party.abseil-cpp.absl.base-Debug-726aa18d9081cfe06401.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp/absl/base",
+					"targetIndexes" : 
+					[
+						4,
+						36,
+						38,
+						52,
+						53,
+						54,
+						59,
+						64
+					]
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/abseil-cpp/absl/algorithm",
+					"jsonFile" : "directory-_deps.grpc-build.third_party.abseil-cpp.absl.algorithm-Debug-6b6506171e9d5845b06c.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp/absl/algorithm"
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/abseil-cpp/absl/cleanup",
+					"jsonFile" : "directory-_deps.grpc-build.third_party.abseil-cpp.absl.cleanup-Debug-9073dcd6cc8bd218968a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp/absl/cleanup"
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/abseil-cpp/absl/container",
+					"jsonFile" : "directory-_deps.grpc-build.third_party.abseil-cpp.absl.container-Debug-522c4ed357acc9a07d14.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp/absl/container",
+					"targetIndexes" : 
+					[
+						32,
+						51
+					]
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/abseil-cpp/absl/debugging",
+					"jsonFile" : "directory-_deps.grpc-build.third_party.abseil-cpp.absl.debugging-Debug-911675a8ab1bf8044f3a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp/absl/debugging",
+					"targetIndexes" : 
+					[
+						13,
+						14,
+						15,
+						17,
+						34,
+						35,
+						55,
+						62
+					]
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/abseil-cpp/absl/flags",
+					"jsonFile" : "directory-_deps.grpc-build.third_party.abseil-cpp.absl.flags-Debug-f82be6ad24327304ee5d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp/absl/flags",
+					"targetIndexes" : 
+					[
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29
+					]
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/abseil-cpp/absl/functional",
+					"jsonFile" : "directory-_deps.grpc-build.third_party.abseil-cpp.absl.functional-Debug-c9082213b295386060e6.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp/absl/functional"
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/abseil-cpp/absl/hash",
+					"jsonFile" : "directory-_deps.grpc-build.third_party.abseil-cpp.absl.hash-Debug-c4715b38bc7f74ae73fa.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp/absl/hash",
+					"targetIndexes" : 
+					[
+						5,
+						31,
+						37
+					]
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/abseil-cpp/absl/memory",
+					"jsonFile" : "directory-_deps.grpc-build.third_party.abseil-cpp.absl.memory-Debug-df58ac25c2d3c60be1f7.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp/absl/memory"
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/abseil-cpp/absl/meta",
+					"jsonFile" : "directory-_deps.grpc-build.third_party.abseil-cpp.absl.meta-Debug-908d898cbe77909fc512.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp/absl/meta"
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/abseil-cpp/absl/numeric",
+					"jsonFile" : "directory-_deps.grpc-build.third_party.abseil-cpp.absl.numeric-Debug-de1585cb227d70eb687b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp/absl/numeric",
+					"targetIndexes" : 
+					[
+						33
+					]
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/abseil-cpp/absl/profiling",
+					"jsonFile" : "directory-_deps.grpc-build.third_party.abseil-cpp.absl.profiling-Debug-5422a2b0f3d73cadc138.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp/absl/profiling",
+					"targetIndexes" : 
+					[
+						16,
+						39
+					]
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/abseil-cpp/absl/random",
+					"jsonFile" : "directory-_deps.grpc-build.third_party.abseil-cpp.absl.random-Debug-a259366d30b541c1b96a.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp/absl/random",
+					"targetIndexes" : 
+					[
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50
+					]
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/abseil-cpp/absl/status",
+					"jsonFile" : "directory-_deps.grpc-build.third_party.abseil-cpp.absl.status-Debug-ed290f7eb1d577c710c1.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp/absl/status",
+					"targetIndexes" : 
+					[
+						56,
+						57
+					]
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/abseil-cpp/absl/strings",
+					"jsonFile" : "directory-_deps.grpc-build.third_party.abseil-cpp.absl.strings-Debug-c2a713bd1d1f4b90aa18.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp/absl/strings",
+					"targetIndexes" : 
+					[
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						58,
+						60,
+						61
+					]
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/abseil-cpp/absl/synchronization",
+					"jsonFile" : "directory-_deps.grpc-build.third_party.abseil-cpp.absl.synchronization-Debug-f7b06fac7fafa52c1033.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp/absl/synchronization",
+					"targetIndexes" : 
+					[
+						30,
+						63
+					]
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/abseil-cpp/absl/time",
+					"jsonFile" : "directory-_deps.grpc-build.third_party.abseil-cpp.absl.time-Debug-3c1b8be1375109cde5f9.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp/absl/time",
+					"targetIndexes" : 
+					[
+						6,
+						65,
+						66
+					]
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/abseil-cpp/absl/types",
+					"jsonFile" : "directory-_deps.grpc-build.third_party.abseil-cpp.absl.types-Debug-0dd269c54ec612171f9d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp/absl/types",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/abseil-cpp/absl/utility",
+					"jsonFile" : "directory-_deps.grpc-build.third_party.abseil-cpp.absl.utility-Debug-c6fd471084a021932c68.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 3,
+					"projectIndex" : 2,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/abseil-cpp/absl/utility"
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/cares/cares",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.grpc-build.third_party.cares.cares-Debug-d06737f9d2efad86e086.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.0"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 3,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/cares/cares",
+					"targetIndexes" : 
+					[
+						67,
+						69,
+						70,
+						72
+					]
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/protobuf",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.grpc-build.third_party.protobuf-Debug-057be75eb2c17789eefb.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.1.3"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 4,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/protobuf/cmake",
+					"targetIndexes" : 
+					[
+						103,
+						104,
+						105,
+						111
+					]
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/re2",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.grpc-build.third_party.re2-Debug-f22b2dfe199a7ec44f7b.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 5,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/re2",
+					"targetIndexes" : 
+					[
+						73,
+						75,
+						77,
+						79,
+						80,
+						81,
+						82,
+						83,
+						106,
+						108,
+						110,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						125,
+						126
+					]
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/boringssl-with-bazel",
+					"jsonFile" : "directory-_deps.grpc-build.third_party.boringssl-with-bazel-Debug-f20d013c8dd133d85928.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 6,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/boringssl-with-bazel",
+					"targetIndexes" : 
+					[
+						71,
+						76,
+						122
+					]
+				},
+				{
+					"build" : "_deps/grpc-build/third_party/zlib",
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-_deps.grpc-build.third_party.zlib-Debug-e0bcb34c9c3a6c705c30.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "2.4.4"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 7,
+					"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/zlib",
+					"targetIndexes" : 
+					[
+						78,
+						107,
+						133,
+						134
+					]
+				},
+				{
+					"build" : "samples",
+					"childIndexes" : 
+					[
+						29,
+						30,
+						31
+					],
+					"jsonFile" : "directory-samples-Debug-88afea7703804c5d5448.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 8,
+					"source" : "samples"
+				},
+				{
+					"build" : "samples/unary",
+					"jsonFile" : "directory-samples.unary-Debug-c7ee43b6586d383576df.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 28,
+					"projectIndex" : 9,
+					"source" : "samples/unary",
+					"targetIndexes" : 
+					[
+						131
+					]
+				},
+				{
+					"build" : "samples/stream_async",
+					"jsonFile" : "directory-samples.stream_async-Debug-176eff96181a29b6c93d.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 28,
+					"projectIndex" : 10,
+					"source" : "samples/stream_async",
+					"targetIndexes" : 
+					[
+						123
+					]
+				},
+				{
+					"build" : "samples/stream_sync",
+					"jsonFile" : "directory-samples.stream_sync-Debug-bc1abdfc2542aa0b5fcf.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.5.1"
+					},
+					"parentIndex" : 28,
+					"projectIndex" : 11,
+					"source" : "samples/stream_sync",
+					"targetIndexes" : 
+					[
+						124
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1,
+						8
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "TinkoffInvestSDK",
+					"targetIndexes" : 
+					[
+						0,
+						127
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					],
+					"directoryIndexes" : 
+					[
+						1
+					],
+					"name" : "grpc",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						68,
+						74,
+						84,
+						85,
+						86,
+						87,
+						88,
+						89,
+						90,
+						91,
+						92,
+						93,
+						94,
+						95,
+						96,
+						97,
+						98,
+						99,
+						100,
+						101,
+						102,
+						109,
+						128,
+						129,
+						130,
+						132
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22
+					],
+					"name" : "absl",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7,
+						8,
+						9,
+						10,
+						11,
+						12,
+						13,
+						14,
+						15,
+						16,
+						17,
+						18,
+						19,
+						20,
+						21,
+						22,
+						23,
+						24,
+						25,
+						26,
+						27,
+						28,
+						29,
+						30,
+						31,
+						32,
+						33,
+						34,
+						35,
+						36,
+						37,
+						38,
+						39,
+						40,
+						41,
+						42,
+						43,
+						44,
+						45,
+						46,
+						47,
+						48,
+						49,
+						50,
+						51,
+						52,
+						53,
+						54,
+						55,
+						56,
+						57,
+						58,
+						59,
+						60,
+						61,
+						62,
+						63,
+						64,
+						65,
+						66
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						23
+					],
+					"name" : "c-ares",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						67,
+						69,
+						70,
+						72
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						24
+					],
+					"name" : "protobuf",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						103,
+						104,
+						105,
+						111
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						25
+					],
+					"name" : "RE2",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						73,
+						75,
+						77,
+						79,
+						80,
+						81,
+						82,
+						83,
+						106,
+						108,
+						110,
+						112,
+						113,
+						114,
+						115,
+						116,
+						117,
+						118,
+						119,
+						120,
+						121,
+						125,
+						126
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						26
+					],
+					"name" : "BoringSSL",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						71,
+						76,
+						122
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						27
+					],
+					"name" : "zlib",
+					"parentIndex" : 1,
+					"targetIndexes" : 
+					[
+						78,
+						107,
+						133,
+						134
+					]
+				},
+				{
+					"childIndexes" : 
+					[
+						9,
+						10,
+						11
+					],
+					"directoryIndexes" : 
+					[
+						28
+					],
+					"name" : "sources",
+					"parentIndex" : 0
+				},
+				{
+					"directoryIndexes" : 
+					[
+						29
+					],
+					"name" : "unary",
+					"parentIndex" : 8,
+					"targetIndexes" : 
+					[
+						131
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						30
+					],
+					"name" : "stream_async",
+					"parentIndex" : 8,
+					"targetIndexes" : 
+					[
+						123
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						31
+					],
+					"name" : "stream_sync",
+					"parentIndex" : 8,
+					"targetIndexes" : 
+					[
+						124
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "TinkoffInvestSDK::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-TinkoffInvestSDK-Debug-9fb4a7981d8e72f1aa16.json",
+					"name" : "TinkoffInvestSDK",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "absl_bad_any_cast_impl::@87c8c94dbbf1d57501f7",
+					"jsonFile" : "target-absl_bad_any_cast_impl-Debug-818827ba5568dafdc069.json",
+					"name" : "absl_bad_any_cast_impl",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "absl_bad_optional_access::@87c8c94dbbf1d57501f7",
+					"jsonFile" : "target-absl_bad_optional_access-Debug-8ef4d110538b4a142480.json",
+					"name" : "absl_bad_optional_access",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 21,
+					"id" : "absl_bad_variant_access::@87c8c94dbbf1d57501f7",
+					"jsonFile" : "target-absl_bad_variant_access-Debug-dbbcc1065c25481f5ea9.json",
+					"name" : "absl_bad_variant_access",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "absl_base::@c83f3e5a481f2bcefac8",
+					"jsonFile" : "target-absl_base-Debug-0117b6047e759a744c5c.json",
+					"name" : "absl_base",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "absl_city::@8542769a9806a2305191",
+					"jsonFile" : "target-absl_city-Debug-ffc6b92b18c2a6b23786.json",
+					"name" : "absl_city",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "absl_civil_time::@eaebfe3f746532af4ca1",
+					"jsonFile" : "target-absl_civil_time-Debug-f9ea562704aed08a616f.json",
+					"name" : "absl_civil_time",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "absl_cord::@40dcdb164f5eca7d74f6",
+					"jsonFile" : "target-absl_cord-Debug-92f3df9def295f5d08ca.json",
+					"name" : "absl_cord",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "absl_cord_internal::@40dcdb164f5eca7d74f6",
+					"jsonFile" : "target-absl_cord_internal-Debug-b64a8bda45fa41691e5f.json",
+					"name" : "absl_cord_internal",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "absl_cordz_functions::@40dcdb164f5eca7d74f6",
+					"jsonFile" : "target-absl_cordz_functions-Debug-44251a8d1a305044f09d.json",
+					"name" : "absl_cordz_functions",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "absl_cordz_handle::@40dcdb164f5eca7d74f6",
+					"jsonFile" : "target-absl_cordz_handle-Debug-d10eafbf91ccff70ffbe.json",
+					"name" : "absl_cordz_handle",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "absl_cordz_info::@40dcdb164f5eca7d74f6",
+					"jsonFile" : "target-absl_cordz_info-Debug-8bc7cb0e5e77e18e31a7.json",
+					"name" : "absl_cordz_info",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "absl_cordz_sample_token::@40dcdb164f5eca7d74f6",
+					"jsonFile" : "target-absl_cordz_sample_token-Debug-0ae6a0d2a490944f6397.json",
+					"name" : "absl_cordz_sample_token",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "absl_debugging_internal::@661e937ce4f9d3fa350b",
+					"jsonFile" : "target-absl_debugging_internal-Debug-439f4e3c8e1a47f2993d.json",
+					"name" : "absl_debugging_internal",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "absl_demangle_internal::@661e937ce4f9d3fa350b",
+					"jsonFile" : "target-absl_demangle_internal-Debug-12af1dd6f15a51ac4dc7.json",
+					"name" : "absl_demangle_internal",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "absl_examine_stack::@661e937ce4f9d3fa350b",
+					"jsonFile" : "target-absl_examine_stack-Debug-7788ee54a5af720fbdc9.json",
+					"name" : "absl_examine_stack",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "absl_exponential_biased::@bb547144bd31e86f7571",
+					"jsonFile" : "target-absl_exponential_biased-Debug-9a5168d7114e574f4beb.json",
+					"name" : "absl_exponential_biased",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "absl_failure_signal_handler::@661e937ce4f9d3fa350b",
+					"jsonFile" : "target-absl_failure_signal_handler-Debug-5d715a16083c37f6985e.json",
+					"name" : "absl_failure_signal_handler",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "absl_flags::@8ba88fd0cb6991576730",
+					"jsonFile" : "target-absl_flags-Debug-9271de2b3a682b85593d.json",
+					"name" : "absl_flags",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "absl_flags_commandlineflag::@8ba88fd0cb6991576730",
+					"jsonFile" : "target-absl_flags_commandlineflag-Debug-0a550ab5d5f9bc084ad8.json",
+					"name" : "absl_flags_commandlineflag",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "absl_flags_commandlineflag_internal::@8ba88fd0cb6991576730",
+					"jsonFile" : "target-absl_flags_commandlineflag_internal-Debug-87507323e330c65d7398.json",
+					"name" : "absl_flags_commandlineflag_internal",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "absl_flags_config::@8ba88fd0cb6991576730",
+					"jsonFile" : "target-absl_flags_config-Debug-c8962b2be6a1eb1562cb.json",
+					"name" : "absl_flags_config",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "absl_flags_internal::@8ba88fd0cb6991576730",
+					"jsonFile" : "target-absl_flags_internal-Debug-e56bf63e750890a4f293.json",
+					"name" : "absl_flags_internal",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "absl_flags_marshalling::@8ba88fd0cb6991576730",
+					"jsonFile" : "target-absl_flags_marshalling-Debug-423afdc24a5602022092.json",
+					"name" : "absl_flags_marshalling",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "absl_flags_parse::@8ba88fd0cb6991576730",
+					"jsonFile" : "target-absl_flags_parse-Debug-9ef9a41eb54377bea3e6.json",
+					"name" : "absl_flags_parse",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "absl_flags_private_handle_accessor::@8ba88fd0cb6991576730",
+					"jsonFile" : "target-absl_flags_private_handle_accessor-Debug-cebed92247be3a6fb52e.json",
+					"name" : "absl_flags_private_handle_accessor",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "absl_flags_program_name::@8ba88fd0cb6991576730",
+					"jsonFile" : "target-absl_flags_program_name-Debug-4814d9b6cf27f8f38d6f.json",
+					"name" : "absl_flags_program_name",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "absl_flags_reflection::@8ba88fd0cb6991576730",
+					"jsonFile" : "target-absl_flags_reflection-Debug-710f8f11ff3fdca9a5e8.json",
+					"name" : "absl_flags_reflection",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "absl_flags_usage::@8ba88fd0cb6991576730",
+					"jsonFile" : "target-absl_flags_usage-Debug-df124ca98f24022f57b8.json",
+					"name" : "absl_flags_usage",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 9,
+					"id" : "absl_flags_usage_internal::@8ba88fd0cb6991576730",
+					"jsonFile" : "target-absl_flags_usage_internal-Debug-1a7f728872d8b7827b7c.json",
+					"name" : "absl_flags_usage_internal",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "absl_graphcycles_internal::@4e076f26d3adeded7f3a",
+					"jsonFile" : "target-absl_graphcycles_internal-Debug-1de160cae085f0d0f87b.json",
+					"name" : "absl_graphcycles_internal",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "absl_hash::@8542769a9806a2305191",
+					"jsonFile" : "target-absl_hash-Debug-75dd94fcc7f4c91cebdc.json",
+					"name" : "absl_hash",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "absl_hashtablez_sampler::@9c0ca7ec0469c180685b",
+					"jsonFile" : "target-absl_hashtablez_sampler-Debug-1261ecb38f153076fb1f.json",
+					"name" : "absl_hashtablez_sampler",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 14,
+					"id" : "absl_int128::@49df67a123fe8bd3185d",
+					"jsonFile" : "target-absl_int128-Debug-d307ce901ea44591f0d0.json",
+					"name" : "absl_int128",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "absl_leak_check::@661e937ce4f9d3fa350b",
+					"jsonFile" : "target-absl_leak_check-Debug-dee70bdc12fdd1b1cc15.json",
+					"name" : "absl_leak_check",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "absl_leak_check_disable::@661e937ce4f9d3fa350b",
+					"jsonFile" : "target-absl_leak_check_disable-Debug-ffd3c6a08747254ce970.json",
+					"name" : "absl_leak_check_disable",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "absl_log_severity::@c83f3e5a481f2bcefac8",
+					"jsonFile" : "target-absl_log_severity-Debug-7f5c23e54219318d2406.json",
+					"name" : "absl_log_severity",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 11,
+					"id" : "absl_low_level_hash::@8542769a9806a2305191",
+					"jsonFile" : "target-absl_low_level_hash-Debug-80b3ff76f2703dfb9037.json",
+					"name" : "absl_low_level_hash",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "absl_malloc_internal::@c83f3e5a481f2bcefac8",
+					"jsonFile" : "target-absl_malloc_internal-Debug-9b7d86b25b1731519445.json",
+					"name" : "absl_malloc_internal",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 15,
+					"id" : "absl_periodic_sampler::@bb547144bd31e86f7571",
+					"jsonFile" : "target-absl_periodic_sampler-Debug-b4e76b1ca88860b8fbb3.json",
+					"name" : "absl_periodic_sampler",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "absl_random_distributions::@5a166797365f1ffe7a88",
+					"jsonFile" : "target-absl_random_distributions-Debug-b82825c06409ffc36c57.json",
+					"name" : "absl_random_distributions",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "absl_random_internal_distribution_test_util::@5a166797365f1ffe7a88",
+					"jsonFile" : "target-absl_random_internal_distribution_test_util-Debug-ed6d944bd34c65a8e9c8.json",
+					"name" : "absl_random_internal_distribution_test_util",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "absl_random_internal_platform::@5a166797365f1ffe7a88",
+					"jsonFile" : "target-absl_random_internal_platform-Debug-97662c3b9fb9da7e5325.json",
+					"name" : "absl_random_internal_platform",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "absl_random_internal_pool_urbg::@5a166797365f1ffe7a88",
+					"jsonFile" : "target-absl_random_internal_pool_urbg-Debug-409b8e70749bdd3da936.json",
+					"name" : "absl_random_internal_pool_urbg",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "absl_random_internal_randen::@5a166797365f1ffe7a88",
+					"jsonFile" : "target-absl_random_internal_randen-Debug-e7364958091945ada2ab.json",
+					"name" : "absl_random_internal_randen",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "absl_random_internal_randen_hwaes::@5a166797365f1ffe7a88",
+					"jsonFile" : "target-absl_random_internal_randen_hwaes-Debug-7f4997e83f20a6e651f2.json",
+					"name" : "absl_random_internal_randen_hwaes",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "absl_random_internal_randen_hwaes_impl::@5a166797365f1ffe7a88",
+					"jsonFile" : "target-absl_random_internal_randen_hwaes_impl-Debug-ccf39a1ed74d9650affe.json",
+					"name" : "absl_random_internal_randen_hwaes_impl",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "absl_random_internal_randen_slow::@5a166797365f1ffe7a88",
+					"jsonFile" : "target-absl_random_internal_randen_slow-Debug-f0d9747cfd4ccd61bcce.json",
+					"name" : "absl_random_internal_randen_slow",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "absl_random_internal_seed_material::@5a166797365f1ffe7a88",
+					"jsonFile" : "target-absl_random_internal_seed_material-Debug-4ecb7470ef068bea2847.json",
+					"name" : "absl_random_internal_seed_material",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "absl_random_seed_gen_exception::@5a166797365f1ffe7a88",
+					"jsonFile" : "target-absl_random_seed_gen_exception-Debug-5e02875f2b5d355f00bb.json",
+					"name" : "absl_random_seed_gen_exception",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 16,
+					"id" : "absl_random_seed_sequences::@5a166797365f1ffe7a88",
+					"jsonFile" : "target-absl_random_seed_sequences-Debug-d63a9193be37b8657713.json",
+					"name" : "absl_random_seed_sequences",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 7,
+					"id" : "absl_raw_hash_set::@9c0ca7ec0469c180685b",
+					"jsonFile" : "target-absl_raw_hash_set-Debug-6a0b1d3597918abd1773.json",
+					"name" : "absl_raw_hash_set",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "absl_raw_logging_internal::@c83f3e5a481f2bcefac8",
+					"jsonFile" : "target-absl_raw_logging_internal-Debug-6640b4e586f2352f212f.json",
+					"name" : "absl_raw_logging_internal",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "absl_scoped_set_env::@c83f3e5a481f2bcefac8",
+					"jsonFile" : "target-absl_scoped_set_env-Debug-44af2e7d394094dff2c7.json",
+					"name" : "absl_scoped_set_env",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "absl_spinlock_wait::@c83f3e5a481f2bcefac8",
+					"jsonFile" : "target-absl_spinlock_wait-Debug-18945a818478790a363f.json",
+					"name" : "absl_spinlock_wait",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "absl_stacktrace::@661e937ce4f9d3fa350b",
+					"jsonFile" : "target-absl_stacktrace-Debug-17daf74113401638d7f2.json",
+					"name" : "absl_stacktrace",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "absl_status::@c1257fb62a16293e8955",
+					"jsonFile" : "target-absl_status-Debug-62199ecfb39920665273.json",
+					"name" : "absl_status",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 17,
+					"id" : "absl_statusor::@c1257fb62a16293e8955",
+					"jsonFile" : "target-absl_statusor-Debug-8b5990b81fa88478d7ea.json",
+					"name" : "absl_statusor",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "absl_str_format_internal::@40dcdb164f5eca7d74f6",
+					"jsonFile" : "target-absl_str_format_internal-Debug-ed52d315f016910b859a.json",
+					"name" : "absl_str_format_internal",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "absl_strerror::@c83f3e5a481f2bcefac8",
+					"jsonFile" : "target-absl_strerror-Debug-a78e9e1fe25a4e2b14e8.json",
+					"name" : "absl_strerror",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "absl_strings::@40dcdb164f5eca7d74f6",
+					"jsonFile" : "target-absl_strings-Debug-b4da09f123be68d48154.json",
+					"name" : "absl_strings",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 18,
+					"id" : "absl_strings_internal::@40dcdb164f5eca7d74f6",
+					"jsonFile" : "target-absl_strings_internal-Debug-ac08e96bd895bb65f61c.json",
+					"name" : "absl_strings_internal",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 8,
+					"id" : "absl_symbolize::@661e937ce4f9d3fa350b",
+					"jsonFile" : "target-absl_symbolize-Debug-937409a7c61530289df6.json",
+					"name" : "absl_symbolize",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 19,
+					"id" : "absl_synchronization::@4e076f26d3adeded7f3a",
+					"jsonFile" : "target-absl_synchronization-Debug-2ad4f45b696b1fd6d9ca.json",
+					"name" : "absl_synchronization",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 4,
+					"id" : "absl_throw_delegate::@c83f3e5a481f2bcefac8",
+					"jsonFile" : "target-absl_throw_delegate-Debug-27c20bc4dfcd77e5a5b9.json",
+					"name" : "absl_throw_delegate",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "absl_time::@eaebfe3f746532af4ca1",
+					"jsonFile" : "target-absl_time-Debug-fa2207c378d44a21339b.json",
+					"name" : "absl_time",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 20,
+					"id" : "absl_time_zone::@eaebfe3f746532af4ca1",
+					"jsonFile" : "target-absl_time_zone-Debug-9c050b11fe05ba50f4ab.json",
+					"name" : "absl_time_zone",
+					"projectIndex" : 2
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "acountry::@76aaa97747bafcc602fb",
+					"jsonFile" : "target-acountry-Debug-a7fde8ca55b0e809b78b.json",
+					"name" : "acountry",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "address_sorting::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-address_sorting-Debug-cbd28f5a6e8c06ea7fdc.json",
+					"name" : "address_sorting",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "adig::@76aaa97747bafcc602fb",
+					"jsonFile" : "target-adig-Debug-21c9b6a1f798c4cfbc4f.json",
+					"name" : "adig",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "ahost::@76aaa97747bafcc602fb",
+					"jsonFile" : "target-ahost-Debug-b1748ceaeca2fcc5dde8.json",
+					"name" : "ahost",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "bssl::@1d2aac4dbcac2e924d72",
+					"jsonFile" : "target-bssl-Debug-0ee51c2699d9b7fdd529.json",
+					"name" : "bssl",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 23,
+					"id" : "c-ares::@76aaa97747bafcc602fb",
+					"jsonFile" : "target-c-ares-Debug-5018ab4cd20715406620.json",
+					"name" : "c-ares",
+					"projectIndex" : 3
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "charclass_test::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-charclass_test-Debug-e58924d439db8d6436b7.json",
+					"name" : "charclass_test",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "check_epollexclusive::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-check_epollexclusive-Debug-354cf314148ad48310cc.json",
+					"name" : "check_epollexclusive",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "compile_test::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-compile_test-Debug-bb9fbc84d9f9b51909cd.json",
+					"name" : "compile_test",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "crypto::@1d2aac4dbcac2e924d72",
+					"jsonFile" : "target-crypto-Debug-5acdcc0d135718b72fb7.json",
+					"name" : "crypto",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "dfa_test::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-dfa_test-Debug-39d807f978b4bcd6d385.json",
+					"name" : "dfa_test",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "example::@5c59ea97b5f5440f1cfc",
+					"jsonFile" : "target-example-Debug-90463d54de18d6e2aace.json",
+					"name" : "example",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "exhaustive1_test::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-exhaustive1_test-Debug-7979d62242e4ea103f8e.json",
+					"name" : "exhaustive1_test",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "exhaustive2_test::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-exhaustive2_test-Debug-ea8d9fe68bdde84f0af5.json",
+					"name" : "exhaustive2_test",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "exhaustive3_test::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-exhaustive3_test-Debug-4df607d8702e0766dcdc.json",
+					"name" : "exhaustive3_test",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "exhaustive_test::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-exhaustive_test-Debug-cae5d875d7cca5956572.json",
+					"name" : "exhaustive_test",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "filtered_re2_test::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-filtered_re2_test-Debug-c40aff777655a35eb5fb.json",
+					"name" : "filtered_re2_test",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gen_hpack_tables::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-gen_hpack_tables-Debug-d579c51badb9071d90c1.json",
+					"name" : "gen_hpack_tables",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "gpr::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-gpr-Debug-d50cfd5c8bcab74fd886.json",
+					"name" : "gpr",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "grpc::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-grpc-Debug-a3c9c60871bb2b7a7003.json",
+					"name" : "grpc",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "grpc++::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-grpc++-Debug-2ba58099d0eb2204ff76.json",
+					"name" : "grpc++",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "grpc++_alts::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-grpc++_alts-Debug-421c6325675fe21ac107.json",
+					"name" : "grpc++_alts",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "grpc++_error_details::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-grpc++_error_details-Debug-db65040714944ef41bee.json",
+					"name" : "grpc++_error_details",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "grpc++_reflection::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-grpc++_reflection-Debug-0be1647eda00f08327b3.json",
+					"name" : "grpc++_reflection",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "grpc++_unsecure::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-grpc++_unsecure-Debug-99fc77028a4290135731.json",
+					"name" : "grpc++_unsecure",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "grpc_cpp_plugin::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-grpc_cpp_plugin-Debug-0d67971cdbf3abbb0c79.json",
+					"name" : "grpc_cpp_plugin",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "grpc_csharp_ext::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-grpc_csharp_ext-Debug-04a5336c2c096b46b529.json",
+					"name" : "grpc_csharp_ext",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "grpc_csharp_plugin::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-grpc_csharp_plugin-Debug-33a42224d9ffb588d13e.json",
+					"name" : "grpc_csharp_plugin",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "grpc_node_plugin::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-grpc_node_plugin-Debug-c6f0c2ce1912faaab907.json",
+					"name" : "grpc_node_plugin",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "grpc_objective_c_plugin::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-grpc_objective_c_plugin-Debug-ec975399ecfed9e94995.json",
+					"name" : "grpc_objective_c_plugin",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "grpc_php_plugin::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-grpc_php_plugin-Debug-a286fd01b12223096783.json",
+					"name" : "grpc_php_plugin",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "grpc_plugin_support::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-grpc_plugin_support-Debug-d7cb2237187b8da8195f.json",
+					"name" : "grpc_plugin_support",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "grpc_python_plugin::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-grpc_python_plugin-Debug-aceddefca52752234029.json",
+					"name" : "grpc_python_plugin",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "grpc_ruby_plugin::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-grpc_ruby_plugin-Debug-8a1b1421d92231376531.json",
+					"name" : "grpc_ruby_plugin",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "grpc_unsecure::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-grpc_unsecure-Debug-93f1353d9123c8d17eb6.json",
+					"name" : "grpc_unsecure",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "grpcpp_channelz::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-grpcpp_channelz-Debug-4237ed112b987cc0ba46.json",
+					"name" : "grpcpp_channelz",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "libprotobuf::@5db3d22c9e46963f097f",
+					"jsonFile" : "target-libprotobuf-Debug-c0c71ddf9c4b45ae7098.json",
+					"name" : "libprotobuf",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "libprotobuf-lite::@5db3d22c9e46963f097f",
+					"jsonFile" : "target-libprotobuf-lite-Debug-6c71aac4cf3455809f38.json",
+					"name" : "libprotobuf-lite",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "libprotoc::@5db3d22c9e46963f097f",
+					"jsonFile" : "target-libprotoc-Debug-a926fdd09e524af7c534.json",
+					"name" : "libprotoc",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "mimics_pcre_test::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-mimics_pcre_test-Debug-5262548d7b59fa16e924.json",
+					"name" : "mimics_pcre_test",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "minigzip::@5c59ea97b5f5440f1cfc",
+					"jsonFile" : "target-minigzip-Debug-307f4c04d701c6f34a46.json",
+					"name" : "minigzip",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "parse_test::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-parse_test-Debug-88b5d9c2c70cdaa7de16.json",
+					"name" : "parse_test",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "plugins::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-plugins-Debug-9fbb0a56e7e4ceff7111.json",
+					"name" : "plugins",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "possible_match_test::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-possible_match_test-Debug-9510db4509a55e0f3e93.json",
+					"name" : "possible_match_test",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 24,
+					"id" : "protoc::@5db3d22c9e46963f097f",
+					"jsonFile" : "target-protoc-Debug-2fa3f7dcf0297af0d67c.json",
+					"name" : "protoc",
+					"projectIndex" : 4
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "random_test::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-random_test-Debug-3ec7b45553866f96db8a.json",
+					"name" : "random_test",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "re2::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-re2-Debug-ccc9ac33d5a96798961a.json",
+					"name" : "re2",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "re2_arg_test::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-re2_arg_test-Debug-3eec22dfa03828983668.json",
+					"name" : "re2_arg_test",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "re2_test::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-re2_test-Debug-fdf0ef521c379483c6ef.json",
+					"name" : "re2_test",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "regexp_benchmark::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-regexp_benchmark-Debug-682ed42a8a38b3dd3ee0.json",
+					"name" : "regexp_benchmark",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "regexp_test::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-regexp_test-Debug-8f0c1e13bbbf6850a381.json",
+					"name" : "regexp_test",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "required_prefix_test::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-required_prefix_test-Debug-578e689308b344829b36.json",
+					"name" : "required_prefix_test",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "search_test::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-search_test-Debug-f04015c36fd99a16ce09.json",
+					"name" : "search_test",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "set_test::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-set_test-Debug-b57b7ca1a5886c3ac9dc.json",
+					"name" : "set_test",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "simplify_test::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-simplify_test-Debug-15312e7399e76d3d45b1.json",
+					"name" : "simplify_test",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 26,
+					"id" : "ssl::@1d2aac4dbcac2e924d72",
+					"jsonFile" : "target-ssl-Debug-0099ce4152bb23d314e0.json",
+					"name" : "ssl",
+					"projectIndex" : 6
+				},
+				{
+					"directoryIndex" : 30,
+					"id" : "stream_async::@52fe4f731a85ad4bf028",
+					"jsonFile" : "target-stream_async-Debug-fbbeccdc80c88689585e.json",
+					"name" : "stream_async",
+					"projectIndex" : 10
+				},
+				{
+					"directoryIndex" : 31,
+					"id" : "stream_sync::@d1e6cb301d7cc985e6c4",
+					"jsonFile" : "target-stream_sync-Debug-abc5b023860197437fc7.json",
+					"name" : "stream_sync",
+					"projectIndex" : 11
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "string_generator_test::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-string_generator_test-Debug-2def5ea2120d3eae8b79.json",
+					"name" : "string_generator_test",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 25,
+					"id" : "testing::@6a80eefe8d8a424d84c4",
+					"jsonFile" : "target-testing-Debug-19161a971ed4741d5ccc.json",
+					"name" : "testing",
+					"projectIndex" : 5
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "tink_grpc_proto::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-tink_grpc_proto-Debug-985840c11f69467c2bb7.json",
+					"name" : "tink_grpc_proto",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tools::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-tools-Debug-5fbaea420f7de310818b.json",
+					"name" : "tools",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tools_c::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-tools_c-Debug-8031f0587caae5a538cc.json",
+					"name" : "tools_c",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "tools_cxx::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-tools_cxx-Debug-6f991a0ac319be4d22eb.json",
+					"name" : "tools_cxx",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 29,
+					"id" : "unary::@74d8f1a6143f78f75892",
+					"jsonFile" : "target-unary-Debug-7105d008fb3bf92e5b2e.json",
+					"name" : "unary",
+					"projectIndex" : 9
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "upb::@37e56dcf5808cfe97076",
+					"jsonFile" : "target-upb-Debug-dc6672f136a921e0c381.json",
+					"name" : "upb",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "zlib::@5c59ea97b5f5440f1cfc",
+					"jsonFile" : "target-zlib-Debug-49fcac714e6d57d05a08.json",
+					"name" : "zlib",
+					"projectIndex" : 7
+				},
+				{
+					"directoryIndex" : 27,
+					"id" : "zlibstatic::@5c59ea97b5f5440f1cfc",
+					"jsonFile" : "target-zlibstatic-Debug-ef49408e116687814e7d.json",
+					"name" : "zlibstatic",
+					"projectIndex" : 7
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/apple/Desktop/tinkoff-trading-bot/build",
+		"source" : "/Users/apple/Desktop/tinkoff-trading-bot/TinkoffInvestSDK"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}

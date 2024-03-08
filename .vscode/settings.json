@@ -1,0 +1,7 @@
+{
+    "cmake.sourceDirectory": "/Users/apple/Desktop/tinkoff-trading-bot/TinkoffInvestSDK",
+    "files.associations": {
+        "*html": "html",
+        "iosfwd": "cpp"
+    }
+}

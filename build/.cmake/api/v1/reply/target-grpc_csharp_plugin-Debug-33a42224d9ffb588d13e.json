@@ -1,0 +1,268 @@
+{
+	"artifacts" : 
+	[
+		{
+			"path" : "_deps/grpc-build/grpc_csharp_plugin"
+		}
+	],
+	"backtrace" : 1,
+	"backtraceGraph" : 
+	{
+		"commands" : 
+		[
+			"add_executable",
+			"target_link_libraries",
+			"include_directories",
+			"include",
+			"target_include_directories"
+		],
+		"files" : 
+		[
+			"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/CMakeLists.txt",
+			"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/cmake/re2.cmake",
+			"/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/cmake/zlib.cmake"
+		],
+		"nodes" : 
+		[
+			{
+				"file" : 0
+			},
+			{
+				"command" : 0,
+				"file" : 0,
+				"line" : 11278,
+				"parent" : 0
+			},
+			{
+				"command" : 1,
+				"file" : 0,
+				"line" : 11297,
+				"parent" : 0
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 277,
+				"parent" : 0
+			},
+			{
+				"file" : 1,
+				"parent" : 3
+			},
+			{
+				"command" : 2,
+				"file" : 1,
+				"line" : 27,
+				"parent" : 4
+			},
+			{
+				"command" : 3,
+				"file" : 0,
+				"line" : 281,
+				"parent" : 0
+			},
+			{
+				"file" : 2,
+				"parent" : 6
+			},
+			{
+				"command" : 2,
+				"file" : 2,
+				"line" : 25,
+				"parent" : 7
+			},
+			{
+				"command" : 4,
+				"file" : 0,
+				"line" : 11282,
+				"parent" : 0
+			}
+		]
+	},
+	"compileGroups" : 
+	[
+		{
+			"compileCommandFragments" : 
+			[
+				{
+					"fragment" : "-g -std=c++11 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX12.3.sdk -fPIE"
+				}
+			],
+			"includes" : 
+			[
+				{
+					"backtrace" : 5,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/re2"
+				},
+				{
+					"backtrace" : 8,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/zlib"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/address_sorting/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-build/third_party/re2"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/boringssl-with-bazel/src/include"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/ext/upb-generated"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/core/ext/upbdefs-generated"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/upb"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/xxhash"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-build/third_party/zlib"
+				},
+				{
+					"backtrace" : 9,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/gens"
+				},
+				{
+					"backtrace" : 2,
+					"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/protobuf/src"
+				}
+			],
+			"language" : "CXX",
+			"languageStandard" : 
+			{
+				"backtraces" : 
+				[
+					1
+				],
+				"standard" : "11"
+			},
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"dependencies" : 
+	[
+		{
+			"backtrace" : 2,
+			"id" : "libprotobuf::@5db3d22c9e46963f097f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "libprotoc::@5db3d22c9e46963f097f"
+		},
+		{
+			"backtrace" : 2,
+			"id" : "grpc_plugin_support::@37e56dcf5808cfe97076"
+		}
+	],
+	"id" : "grpc_csharp_plugin::@37e56dcf5808cfe97076",
+	"link" : 
+	{
+		"commandFragments" : 
+		[
+			{
+				"fragment" : "-g",
+				"role" : "flags"
+			},
+			{
+				"fragment" : "",
+				"role" : "flags"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "third_party/protobuf/libprotocd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "third_party/protobuf/libprotobufd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "libgrpc_plugin_support.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "third_party/protobuf/libprotocd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "third_party/protobuf/libprotobufd.a",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lm",
+				"role" : "libraries"
+			},
+			{
+				"backtrace" : 2,
+				"fragment" : "-lpthread",
+				"role" : "libraries"
+			}
+		],
+		"language" : "CXX"
+	},
+	"name" : "grpc_csharp_plugin",
+	"nameOnDisk" : "grpc_csharp_plugin",
+	"paths" : 
+	{
+		"build" : "_deps/grpc-build",
+		"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src"
+	},
+	"sourceGroups" : 
+	[
+		{
+			"name" : "Source Files",
+			"sourceIndexes" : 
+			[
+				0
+			]
+		}
+	],
+	"sources" : 
+	[
+		{
+			"backtrace" : 1,
+			"compileGroupIndex" : 0,
+			"path" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/src/compiler/csharp_plugin.cc",
+			"sourceGroupIndex" : 0
+		}
+	],
+	"type" : "EXECUTABLE"
+}

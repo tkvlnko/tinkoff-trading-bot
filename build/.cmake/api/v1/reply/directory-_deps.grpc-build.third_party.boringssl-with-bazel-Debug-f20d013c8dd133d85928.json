@@ -1,0 +1,14 @@
+{
+	"backtraceGraph" : 
+	{
+		"commands" : [],
+		"files" : [],
+		"nodes" : []
+	},
+	"installers" : [],
+	"paths" : 
+	{
+		"build" : "_deps/grpc-build/third_party/boringssl-with-bazel",
+		"source" : "/Users/apple/Desktop/tinkoff-trading-bot/build/_deps/grpc-src/third_party/boringssl-with-bazel"
+	}
+}
